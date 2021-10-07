@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+    font-family: Lobster;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+p {
+    font-family: Arial;
+}
+
+.header-footer {
+    background-color: rgb(49, 65, 65);
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.header-footer>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link:hover {
+    font-size: 40px;
+    color: green;
+}
