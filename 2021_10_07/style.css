@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.header-footer {
+    background-color: rgba(56, 199, 199, 0.788);
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+}
+
+.menu-link:hover {
+    color: red;
+}
+
+.container {
+    margin: 20px 20px;
+}                                                                          
+                                                                            
+.item-img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-card{
+    display: inline-block;
+    width: 250px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.item-card:hover {
+    outline: 1px solid black;
+}
+.name {
+    display: inline-block;
+    width: 70%;
+}
+.price {
+    text-align: right;                                                     
+    width: 25%;
+    display: inline-block;
+}
+
+.description {
+    text-align: left;
+}
+
+.help {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(13, 94, 243, 0.822);
+    color: white;
+    font-size: 2.7em;
+    border-radius: 100%;
+    position: fixed;
+    top: 80%;
+    right: 10px
+}
+q {
+    text-align: center;
+    margin: 0; 
+    height: 100%;
+}
+
+.help:hover {
+    background-color: rgb(13, 93, 243);
+}
+
+.q-link {
+    text-decoration: none;
+    color:inherit;
+    margin: 0 !important;
+    padding: 0px;
+    display: block;
+}
+
+
