@@ -4,10 +4,10 @@ def hod (a, b, h, mh, put=''):
     global cnt
     if a >= 50 or b >= 50:
         if h % 2 == 1:
-            if (1 if (a + b < 109) else 2) == 2: cnt +=1
+            if (1 if (a + b <= 109) else 2) == 2: cnt +=1
             return (1 if (a+b < 109) else 2, put)
         else:
-            if (2 if (a + b < 109) else 1) == 2: cnt +=1
+            if (2 if (a + b <= 109) else 1) == 2: cnt +=1
             return (2 if (a+b < 109) else 1, put)
     h += 1
     if h > mh:
