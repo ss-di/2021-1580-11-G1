@@ -21,7 +21,7 @@ with open("27-77b.txt") as f:
         for a in lcm:
             if a != mx:
                 co5 = o5
-                ost5 = a%5
+                ost5 = (mx - a)%5
                 razn5 = mx - a
                 for o in range(5):
                     if not (o5[o] is None):
@@ -37,7 +37,7 @@ with open("27-77b.txt") as f:
                 o5 = co5
             
                 co7 = o7
-                ost7 = a%7
+                ost7 = (mx - a)%7
                 razn7 = mx - a
                 for o in range(7):
                     if not (o7[o] is None):
@@ -77,4 +77,4 @@ else:
         if b is None:
             print(s - a)
         else:
-            print(s - min(a, b))
+            print(s - min(a, b)) # есть опастность, что число должно быть кратно двум
